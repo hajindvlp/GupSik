@@ -1,0 +1,22 @@
+html {
+    height : 300px
+}
+li {
+    word-wrap: break-word;
+    width : 400px;
+}
+p {
+    font-weight : 600;
+}
+
+#title_div {
+    display:inline-block;
+}
+
+#date_div {  
+    display:inline-block
+}
+
+#meal {
+    word-wrap: break-word;
+}
