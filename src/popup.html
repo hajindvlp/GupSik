@@ -1,24 +1,37 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body id="Body" style="zoom:100%">
         <div id="header">
             <div id="title_div"> 
-                <h2 id="title">오늘의 급식</h2> 
+                <h2 id="title">오늘의 급식</h2>
             </div>
             <div id="date_div">
                 <div id="date"></div>
             </div>
+            <div id="zoom_div">
+                <button id="zoomIn" class="w3-circle w3-green">+</button>
+                <div id="zoomRate">100%</div>
+                <button id="zoomOut" class="w3-circle w3-green">-</button>
+            </div>
         </div>
         <div id="meal">
-            <p>아침</p>
-            <li id="breakfast"></li>
-            <p>점심</p>
-            <li id="lunch"></li>
-            <p>저녁</p>
-            <li id="dinner"></li>
+            <div id="breakfast_div">
+                <p>아침</p>
+                <ul id="breakfast"></ul>
+            </div>
+            <div id="lunch_div">
+                <p> 점심</p>
+                <ul id="lunch"></ul>
+            </div>
+            <div id="dinner_div">
+                <p>저녁</p>
+                <ul id="dinner"></ul>
+            </div>
         </div>
         <script src="popup.js"></script>
     </body>

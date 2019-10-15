@@ -1,22 +1,54 @@
 html {
-    height : 300px
+    height : 320px;
+}
+
+body {
+    margin: 10px;
+    height: 300px;
 }
 li {
     word-wrap: break-word;
-    width : 400px;
+    width : 150px;
 }
 p {
     font-weight : 600;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display:inline-block;
+}
+
+#font-do {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
 }
 
 #title_div {
     display:inline-block;
 }
 
+/* #title {
+    width: 200px;
+} */
+
 #date_div {  
     display:inline-block
 }
 
+#zoom_div {
+    float: right;
+}
+
 #meal {
-    word-wrap: break-word;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+#meal > div {
+    text-align: center;
+    width: 33.3%;
 }
